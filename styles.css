@@ -1,0 +1,223 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+::selection{
+    color: aliceblue;
+    background-color: black;
+}
+/* CSS Variables  */
+:root {
+    --black: black;
+    --white: white;
+}
+
+
+
+
+/* navigation bar styling  */
+
+body header {
+    width: 100%;
+    height: 15vh;
+    border: 2px;
+}
+
+body header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+header::before{
+    content: '';
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    z-index: -1;
+}
+body header .navbar .logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+body header .navbar .logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+body header .navbar .logo img:hover {
+    animation: rotateAnimation 01s ease-in-out forwards;
+    transition: 0.2s;
+}
+
+body header .navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0 0 0 10%;
+}
+
+body header .navbar ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    border-radius: 52px;
+}
+body header .navbar ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgba(226, 226, 226, 0.87);
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+body header .navbar ul li:hover{
+    background-color: rgba(255, 255, 255, 0.808);
+    transition: 0.3s;
+}
+body header .navbar ul li:hover a{
+    color: rgb(133, 61, 61);
+    transition: 0.3s;
+}
+
+/* the styling about home page starts here  */
+
+
+main .home::before{
+    content: '';
+    width: 100%;
+    height: 70%;
+    background-image: url(/images/melanie-these-uoPdt18AHgc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    position: absolute;
+    top: 0%;
+}
+main .home{
+    width: 100%;
+    height: 56vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+main .home .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px 0 0; */
+}
+
+main .home .content h1{
+    font-size: 2.2rem;
+    color: rgb(236, 236, 236);
+    padding: 5vh 0;
+}
+
+main .home .content p{
+    display: block;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 1vh 0;
+}
+main .home .content .btn{
+    outline: none;
+    border: none;
+    background-color: none;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: 800;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+main .home .content .btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+    transition: 0.2s;
+}
+ 
+
+/* the styling about services starts heer  */
+
+main .services {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .services h1 {
+    font-size: 3.3rem;
+    font-family: "Balsamiq Sans", sans-serif;
+    width: 12%;
+    align-self: center;
+    /* background-color: aqua; */
+}
+
+main .services .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main .services .boxes .content {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid brown;
+    background-color: rgb(255, 253, 246);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .services .boxes .content h2{
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
+main .services .boxes .content p{
+    font-size: 0.9rem;
+    text-align: justify;
+    color: gray;
+}
+
+main .services .boxes .content .image {
+    width: 100%;
+    height: 70%;
+    background-image: url("/images/farhad-ibrahimzade-AMircImAJvA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+main .services .boxes .content .box-img1{
+    background-image: url("/images/freestocks-5JCIyPFjbG4-unsplash.jpg");
+}
+main .services .boxes .content .box-img2 {
+    background-image: url("/images/jake-colling-2gPZfW5aHwI-unsplash.jpg");
+}
+main .services .boxes .content .box-img3 {
+    background-image: url("/simon-ray-AgTHU4ACy9k-unsplash.jpg");
+}
