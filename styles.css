@@ -356,6 +356,10 @@ main .about .content:hover p {
 }
 
 
+
+
+
+
 /* stylig about products  */
 
 main .products {
@@ -369,6 +373,19 @@ main .products {
     font-family: "Balsamiq Sans", sans-serif;
 }
 
+
+/* swiper  */
+/* .swiper {
+    width: 60%;
+    height: 42vh;
+}
+.card-wrapper {
+    max-width: 1200px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+  } */
+
 main .products .up-heading {
     font-size: 3rem;
     font-family: "Balsamiq Sans", sans-serif;
@@ -381,18 +398,22 @@ main .products .down-heading {
     margin: 40px 0 ;
 }
 
-main .products .boxes {
+main .products .swiper {
     width: 90%;
-    /* height: 45vh; */
+    height: 50vh;
+}
+main .products .swiper-wrapper {
+    /* width: 90%; */
+    /* height: 20vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-main .products .boxes .box {
-    width: 300px;
-    height: 40vh;
+main .products .swiper-wrapper .box {
+    width: 320px;
+    height: 43vh;
     background-color: rgb(238, 252, 255);
     border-radius: 12px;
     display: flex;
@@ -401,13 +422,13 @@ main .products .boxes .box {
     margin: 12px;
     border: 2px solid transparent;
 }
-main .products .boxes .box:hover{
+main .products .swiper-wrapper .box:hover{
     border: 2px solid rgb(226, 89, 10);
     transform: scale(1.01);
     transition: 0.5s;
 }
 
-main .products .boxes .box .content{
+main .products .swiper-wrapper .box .content{
     width: 98%;
     margin: auto;
     display: flex;
@@ -417,7 +438,7 @@ main .products .boxes .box .content{
     
 }
 
-main .products .boxes .box .image{
+main .products .swiper-wrapper .box .image{
     width: 100%;
     height: 30vh;
     border-top-left-radius: 10px;
@@ -426,7 +447,7 @@ main .products .boxes .box .image{
     background-size: contain;
 }
 
-main .products .boxes .box .content h3{
+main .products .swiper-wrapper .box .content h3{
     font-size: 1.2rem;
     display: block;
     color: rgb(62, 130, 218);
@@ -437,7 +458,7 @@ main .products .boxes .box .content h3{
     
 }
 
-main .products .boxes .box .content p{
+main .products .swiper-wrapper .box .content p{
     font-size: 0.8rem;
     text-align: justify;
     color: gray;
@@ -447,72 +468,78 @@ main .products .boxes .box .content p{
 
 
 
+
+
+
+
+
+
 /* for box 1  */
-main .products .boxes .box2 .image{
+main .products .swiper-wrapper .box2 .image{
     background-image: url("/products/bread.jpg");
     background-size: cover;
 }
-main .products .boxes .box1 .content h3{
+main .products .swiper-wrapper .box1 .content h3{
     color: rgb(62, 130, 218);
     background-color: rgb(215, 237, 250);
 }
-main .products .boxes .box1:hover .content h3{
+main .products .swiper-wrapper .box1:hover .content h3{
     color: rgb(215, 237, 250);
     background-color: rgb(62, 130, 218);
 }
-main .products .boxes .box1:hover{
+main .products .swiper-wrapper .box1:hover{
     border: 2px solid rgb(62, 130, 218);
     transition: 0.3s;
 }
 
 /* for box 2  */
-main .products .boxes .box2 .image{
+main .products .swiper-wrapper .box2 .image{
     background-image: url("/products/pasta.jpg");
     background-size: cover;
 }
-main .products .boxes .box2 .content h3{
+main .products .swiper-wrapper .box2 .content h3{
     color: rgb(230, 112, 10);
     background-color: rgb(255, 227, 200);
 }
-main .products .boxes .box2:hover .content h3{
+main .products .swiper-wrapper .box2:hover .content h3{
     color: rgb(255, 227, 200);
     background-color: rgb(230, 112, 10);
 }
-main .products .boxes .box2:hover{
+main .products .swiper-wrapper .box2:hover{
     border: 2px solid rgb(230, 112, 10);
     transition: 0.3s;
 }
 /* for box3  */
-main .products .boxes .box3 .image{
+main .products .swiper-wrapper .box3 .image{
     background-image: url("/products/beans.jpg");
     background-size: cover;
 }
-main .products .boxes .box3 .content h3{
+main .products .swiper-wrapper .box3 .content h3{
     color: rgb(107, 28, 28);
     background-color: rgb(248, 226, 226);
 }
-main .products .boxes .box3:hover .content h3{
+main .products .swiper-wrapper .box3:hover .content h3{
     color: rgb(255, 227, 200);
     background-color: rgb(107, 28, 28);
 }
-main .products .boxes .box3:hover{
+main .products .swiper-wrapper .box3:hover{
     border: 2px solid rgb(107, 28, 28);
     transition: 0.3s;
 }
 /* for box4  */
-main .products .boxes .box4 .image{
+main .products .swiper-wrapper .box4 .image{
     background-image: url("/products/grappone.jpg");
     background-size: cover;
 }
-main .products .boxes .box4 .content h3{
+main .products .swiper-wrapper .box4 .content h3{
     color: rgb(212, 193, 16);
     background-color: rgb(248, 243, 220);
 }
-main .products .boxes .box4:hover .content h3{
+main .products .swiper-wrapper .box4:hover .content h3{
     color: rgb(248, 243, 220);
     background-color: rgb(212, 193, 16);
 }
-main .products .boxes .box4:hover{
+main .products .swiper-wrapper .box4:hover{
     border: 2px solid rgb(212, 193, 16);
     transition: 0.3s;
 }
