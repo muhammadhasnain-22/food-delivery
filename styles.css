@@ -11,12 +11,11 @@
     background-color: black;
 }
 /* CSS Variables  */
+
 :root {
     --black: black;
     --white: white;
 }
-
-
 
 
 /* navigation bar styling  */
@@ -42,16 +41,19 @@ header::before{
     opacity: 0.3;
     z-index: -1;
 }
+
 body header .navbar .logo {
     width: 50px;
     height: 50px;
     margin: 20px;
 }
+
 body header .navbar .logo img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
+
 @keyframes rotateAnimation {
     0% {
         transform: rotate(0deg);
@@ -63,6 +65,7 @@ body header .navbar .logo img {
         transform: rotate(0deg);
     }
 }
+
 body header .navbar .logo img:hover {
     animation: rotateAnimation 01s ease-in-out forwards;
     transition: 0.2s;
@@ -80,6 +83,7 @@ body header .navbar ul li {
     padding: 0 20px;
     border-radius: 52px;
 }
+
 body header .navbar ul li a{
     text-decoration: none;
     font-size: 1.4rem;
@@ -91,6 +95,7 @@ body header .navbar ul li:hover{
     background-color: rgba(255, 255, 255, 0.808);
     transition: 0.3s;
 }
+
 body header .navbar ul li:hover a{
     color: rgb(133, 61, 61);
     transition: 0.3s;
@@ -103,9 +108,8 @@ main .home::before{
     content: '';
     width: 100%;
     height: 100%;
-    background-image: url("/bg-images/bg-home.jpg");
+    background-image: url("/bg-images/bg-home.jpg") ;
     background-size: cover;
-    background-repeat: no-repeat;
     z-index: -2;
     position: absolute;
     top: -250px;
@@ -115,7 +119,6 @@ main .home{
     height: 60vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     font-family: "Balsamiq Sans", sans-serif;
 }
 
@@ -301,16 +304,6 @@ main .clients .images .img4{
 
 /* the styling which is related to about us page starts here */
 
-/* main .about::before {
-    content: '';
-    width: 100%;
-    height: 80vh;
-    background-image: url("/bg-images/bg6.jpg");
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.9;
-} */
 
 
 /* about section                         */
@@ -544,3 +537,95 @@ main .products .swiper-wrapper .box4:hover{
     transition: 0.3s;
 }
 
+
+
+/* styling about contact page starts here     */
+
+main .contact {
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 203, 255);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+main .contact h2 {
+    font-size: 3.5rem;
+    color: brown;
+    padding: 5rem 0;
+}
+
+main .contact .contact-box {
+    width: auto;
+    background-color: rgb(161, 236, 236);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgb(42, 99, 165);
+    border-radius: 10px;
+    transform: rotate(4deg);
+    margin-bottom: 6rem;
+}
+main .contact .contact-box:active {
+    transform: rotate(-3deg);
+    /* transition: 0.1s; */
+    transition: 0.09s;
+    
+}
+main .contact .contact-box form{
+    width: 100%;
+    background-color: rgb(252, 222, 139);
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 4rem;
+    transform: rotate(-8deg);
+}
+main .contact .contact-box form:active {
+    transform: rotate(8deg);
+    transition: 0.09s;
+}
+main .contact .contact-box form .form-items {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(4deg);
+    position: relative;
+}
+main .contact .contact-box form:active .form-items{
+    transform: rotate(-4deg);
+
+}
+main .contact .contact-box form .form-items label {
+    padding: 20px 0 8px;
+    font-size: 1.1rem;
+    
+}
+main .contact .contact-box form .form-items input {
+    width: 300px;
+}
+
+main .contact .contact-box form .form-items input {
+    /* border: 3px solid rgb(0, 0, 0); */
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: none;
+    padding: 12px;
+    font-size: 1rem;
+}
+main .contact .contact-box form .form-items button {
+    padding: 4px;
+    margin: 30px 0 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background-color: rgb(202, 134, 45);
+    border: 2px solid transparent;
+    
+}
+main .contact .contact-box form:hover .form-items button {
+    border: 2px solid black;
+    transform: scale(1.031);
+    transition: 0.2s;
+}
