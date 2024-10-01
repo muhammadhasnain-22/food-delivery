@@ -1,0 +1,47 @@
+
+/* the styling which is related to about us page starts here */
+
+
+
+/* about section                         */
+main .about {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+main .about .content {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+main .about .content h2{
+    color: rgb(136, 61, 61);
+    margin: 5vh 0;
+    display: flex;
+    align-self: center;
+    font-size: 3.3rem;
+}
+main .about .content p{
+    width: 70%;
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgb(43, 33, 33);
+    padding: 20px;
+    background-color: rgba(2, 2, 2, 0.12);
+    border: 4px solid rgba(2, 2, 2, 0.15);
+    box-shadow: 1px 1px 10px 4px rgba(2, 2, 2, 0.428);
+    border-radius: 25px;
+}
+main .about .content:hover p {
+    box-shadow: 1px 1px 10px 4px rgba(2, 2, 2, 0.6);
+    transition: 0.3s;
+
+}
+

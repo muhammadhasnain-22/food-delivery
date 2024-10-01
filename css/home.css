@@ -1,0 +1,62 @@
+/* the styling about home page starts here  */
+
+
+main .home::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url("/bg-images/bg-home.jpg") ;
+    background-size: cover;
+    z-index: -2;
+    position: absolute;
+    top: -250px;
+}
+main .home{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+main .home .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+main .home .content h1{
+    font-size: 3rem;
+    color: rgb(236, 236, 236);
+    padding: 5vh 0;
+}
+
+main .home .content p{
+    line-height: 1.2rem;
+    display: block;
+    color: rgb(240, 240, 240);
+    font-family: "Balsamiq Sans", sans-serif;
+    text-align: center;
+    padding: 1vh 0;
+}
+main .home .content .btn{
+    outline: none;
+    border: none;
+    background-color: none;
+    padding: 6px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    font-weight: 800;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+main .home .content .btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+    transition: 0.2s;
+}
+
+
+

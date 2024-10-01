@@ -1,0 +1,100 @@
+
+
+/* styling about contact page starts here     */
+
+main .contact {
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 203, 255);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+main .contact h2 {
+    font-size: 3.5rem;
+    color: brown;
+    padding: 5rem 0;
+}
+
+main .contact .contact-box {
+    width: auto;
+    background-color: rgb(161, 236, 236);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgb(42, 99, 165);
+    border-radius: 10px;
+    transform: rotate(4deg);
+    margin-bottom: 6rem;
+}
+main .contact .contact-box:active {
+    transform: rotate(-3deg);
+    /* transition: 0.1s; */
+    transition: 0.09s;
+    
+}
+main .contact .contact-box form{
+    width: 100%;
+    background-color: rgb(252, 222, 139);
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 4rem;
+    transform: rotate(-8deg);
+}
+main .contact .contact-box form:active {
+    transform: rotate(8deg);
+    transition: 0.09s;
+}
+main .contact .contact-box form .form-items {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(4deg);
+    position: relative;
+}
+main .contact .contact-box form:active .form-items{
+    transform: rotate(-4deg);
+    
+}
+main .contact .contact-box form .form-items label {
+    padding: 20px 0 8px;
+    font-size: 1.1rem;
+    
+}
+main .contact .contact-box form .form-items textarea {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 25px;
+    height: 120px;
+}
+
+main .contact .contact-box form .form-items input {
+    width: 300px;
+}
+
+main .contact .contact-box form .form-items input {
+    /* border: 3px solid rgb(0, 0, 0); */
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: none;
+    padding: 12px;
+    font-size: 0.8rem;
+}
+main .contact .contact-box form .form-items button {
+    padding: 4px;
+    margin: 30px 0 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background-color: rgb(202, 134, 45);
+    border: 2px solid transparent;
+    
+}
+main .contact .contact-box form:hover .form-items button {
+    border: 2px solid black;
+    transform: scale(1.031);
+    transition: 0.2s;
+}

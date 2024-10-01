@@ -1,0 +1,82 @@
+/* navigation bar styling  */
+
+body header {
+    width: 100%;
+    height: 15vh;
+    border: 2px;
+}
+
+body header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+header::before{
+    content: '';
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+body header .navbar .logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+body header .navbar .logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+body header .navbar .logo img:hover {
+    animation: rotateAnimation 01s ease-in-out forwards;
+    transition: 0.2s;
+}
+
+body header .navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0 0 0 10%;
+}
+
+body header .navbar ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    border-radius: 52px;
+}
+
+body header .navbar ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgba(226, 226, 226, 0.87);
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+body header .navbar ul li:hover{
+    background-color: rgba(255, 255, 255, 0.808);
+    transition: 0.3s;
+}
+
+body header .navbar ul li:hover a{
+    color: rgb(133, 61, 61);
+    transition: 0.3s;
+}
