@@ -1,0 +1,31 @@
+
+
+
+
+/* home  */
+
+
+main .home::before{
+   height: 114vh;
+}
+
+main .home{
+    height: 60vh;
+}
+
+
+
+
+
+/* clients     */
+
+main .clients::before{
+    height: 108vh;
+}
+ 
+
+main .clients .images {
+    margin-bottom: 3rem;
+    flex-flow: column wrap;
+} 
+

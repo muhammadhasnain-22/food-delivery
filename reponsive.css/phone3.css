@@ -1,27 +1,33 @@
 /* navigation bar */
 
 body header {
-    height: 25vh;
+    height: 20vh;
+}
+body header .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header::before{
-    height: 26vh;
+    height: 20vh;
 }
 
 body header .navbar .logo {
     width: 80px;
     height: 80px;
-    margin: 60px;
+    margin: 20px 0;
 }
 
 body header .navbar ul {
-    margin: 1rem 0 1rem 10rem;
-    flex-direction: column;
+    /* margin: 0.5rem; */
+    /* flex-direction: column; */
     align-self: center;
 }
 
 body header .navbar ul li {
-    padding: 3px 12px;
+    padding: 3px 10px;
 }
 
 body header .navbar ul li a{
@@ -32,7 +38,7 @@ body header .navbar ul li a{
 /* home     */
 
 main .home::before{
-    height: 107%;
+    height: 102%;
 }
 
 main .home{
@@ -40,7 +46,7 @@ main .home{
 }
 
 main .home .content h1{
-    font-size: 2.1rem;
+    font-size: 2rem;
     padding: 3vh 0;
 }
 
@@ -84,7 +90,7 @@ main .products .up-heading {
     margin: 5vh 0 ;
 }
 main .products .down-heading {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     margin: 50px 0 ;
 }
 
@@ -162,9 +168,8 @@ main .clients .images .client-image {
 }
 
 /* footer       */
-
 footer .heading {
-    padding: 8px 0;
+    padding: 3rem 0;
+    text-align: center;
     font-size: 0.9rem;
-    font-weight: lighter;
 }

@@ -31,7 +31,7 @@ main .services .boxes {
 }
 
 main .services .boxes .content {
-    width: 600px;
+    width: 35rem;
     height: 450px;
     align-self: center;
     padding: 10px;
@@ -125,7 +125,7 @@ main .contact .contact-box form .form-items input {
 
 main .contact .contact-box form .form-items button {
     font-size: 1.3rem;
-    font-weight: 500;
+   
 
 }
 

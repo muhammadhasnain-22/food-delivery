@@ -9,6 +9,28 @@ main .home .content p{
     font-size: 1.2rem;
     width: 60%;
 }
+
+/* serivces      */
+
+
+main .services h1 {
+    font-size: 3rem;
+}
+
+main .services .boxes .content {
+    width: 27%;
+    height: 420px;
+    padding: 10px;
+  
+}
+main .services .boxes .content h2{
+    font-size: 1.8rem;
+}
+
+main .services .boxes .content p{
+    font-size: 1rem;
+}
+
 /* clients  */
 
 main .clients .images {
@@ -76,6 +98,5 @@ main .contact .contact-box form .form-items button {
     padding: 5px;
     font-size: 1.2rem;
     font-weight: 500;
-    /* width: 120px; */
     color: rgb(253, 253, 253);
 }

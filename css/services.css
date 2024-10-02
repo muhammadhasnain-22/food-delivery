@@ -23,7 +23,7 @@ main .services .boxes {
     flex-wrap: wrap;
 }
 main .services .boxes .content {
-    width: 400px;
+    width: 27%;
     height: 400px;
     margin: 20px;
     border: 2px solid brown;

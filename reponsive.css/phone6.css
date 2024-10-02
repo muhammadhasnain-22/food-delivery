@@ -1,0 +1,115 @@
+
+/* navbar */
+
+body header {
+    width: 100%;
+    height: 20vh;
+}
+
+body header nav {
+    width: 100%;
+}
+
+header::before{
+    height: 20vh;
+}
+
+body header .navbar .logo {
+    width: 0px;
+    height: 0px;
+}
+
+body header .navbar ul {
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: column;
+}
+
+body header .navbar ul li {
+    padding: 0 11px 0 0;
+}
+
+body header .navbar ul li a{
+    font-size: 1.2rem;
+}
+
+
+/* home  */
+
+main .home::before{
+   height: 106vh;
+}
+
+main .home{
+    height: 60vh;
+}
+
+/* services */
+
+main .services {
+    width: 90%;
+}
+
+main .services h1 {
+    font-size: 2.2rem;
+}
+
+main .services .boxes {
+    width: 100%;  
+    flex-direction: column;
+}
+
+main .services .boxes .content {
+    height: 340px;
+}
+
+
+/* clients     */
+
+main .clients::before{
+    height: 95vh;
+}
+
+/* products       */
+
+main .products .swiper-wrapper .box {
+    height: 45vh;
+}
+
+/* contact     */
+main .contact h2 {
+    font-size: 2rem;
+    padding: 3rem 0;
+}
+
+main .contact .contact-box form{
+    padding: 2.2rem;
+}
+
+main .contact .contact-box form .form-items label {
+    padding: 12px 0 5px;
+    font-size: 1.1rem;
+}
+main .contact .contact-box form .form-items input {
+    width: 14rem;
+}
+
+main .contact .contact-box form .form-items input {
+    font-size: 0.9rem;
+    padding: 8px;
+}
+main .contact .contact-box form .form-items button {
+    font-size: 1.2rem;
+}
+
+
+/* footer        */
+footer {
+    width: 100%;
+}
+
+footer .heading {
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
