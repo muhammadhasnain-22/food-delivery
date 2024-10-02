@@ -21,10 +21,9 @@ main .contact h2 {
 main .contact .contact-box {
     width: auto;
     background-color: rgb(161, 236, 236);
-    backdrop-filter: blur(30px);
     border: 2px solid rgb(42, 99, 165);
     border-radius: 10px;
-    transform: rotate(4deg);
+    transform: rotate(3deg);
     margin-bottom: 6rem;
 }
 main .contact .contact-box:active {
@@ -39,20 +38,20 @@ main .contact .contact-box form{
     border: 2px solid brown;
     border-radius: 10px;
     padding: 4rem;
-    transform: rotate(-8deg);
+    transform: rotate(-6deg);
 }
 main .contact .contact-box form:active {
-    transform: rotate(8deg);
+    transform: rotate(6deg);
     transition: 0.09s;
 }
 main .contact .contact-box form .form-items {
     display: flex;
     flex-direction: column;
-    transform: rotate(4deg);
+    transform: rotate(3deg);
     position: relative;
 }
 main .contact .contact-box form:active .form-items{
-    transform: rotate(-4deg);
+    transform: rotate(-3deg);
     
 }
 main .contact .contact-box form .form-items label {
@@ -85,11 +84,12 @@ main .contact .contact-box form .form-items button {
     padding: 4px;
     margin: 30px 0 0;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 20px;
-    width: 100px;
+    width: auto;
     border: none;
-    background-color: rgb(202, 134, 45);
+    background-color: rgb(189, 115, 18);
+    color: rgb(240, 240, 240);
     border: 2px solid transparent;
     
 }

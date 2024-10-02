@@ -1,0 +1,180 @@
+
+/* home        */
+
+
+main .home .content p{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+main .home .content .btn{
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+
+/* services    */
+
+main .services {
+    height: auto;
+    margin: auto;
+    padding: 4vh 0;
+}
+
+main .services h1 {
+    font-size: 3rem;
+    padding: 0 0 1rem;
+}
+
+main .services .boxes {   
+    flex-direction: column;
+}
+
+main .services .boxes .content {
+    width: 600px;
+    height: 450px;
+    align-self: center;
+    padding: 10px;
+}
+
+main .services .boxes .content h2{
+    padding: 15px 0;
+}
+
+main .services .boxes .content p{
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+
+
+/* products    */
+
+main .products {
+    width: 100%;
+    height: auto;
+}
+
+main .products .up-heading {
+    font-size: 2.7rem;
+    margin: 4vh 0 ;
+}
+
+main .products .down-heading {
+    font-size: 1.6rem;
+    margin: 40px 0 ;
+}
+main .products .container {
+    width: 100%;
+    height: auto;
+}
+
+main .products .swiper {
+    width: 80%;
+    width: auto;
+}
+main .products .swiper-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+main .products .swiper-wrapper .box {
+    width: 420px;
+}
+
+main .products .swiper-wrapper .box .content h3{
+    font-size: 1.3rem;
+}
+
+main .products .swiper-wrapper .box .content p{
+    font-size: 1rem;
+}
+
+
+/* contact     */
+
+main .contact h2 {
+    font-size: 3rem;
+    padding: 4rem 0;
+}
+
+main .contact .contact-box {
+    width: auto;
+    margin-bottom: 4rem;
+}
+
+main .contact .contact-box form{
+    padding: 3.8rem;
+}
+
+main .contact .contact-box form .form-items label {
+    padding: 24px 0 10px;
+    font-size: 1.3rem;
+}
+
+main .contact .contact-box form .form-items input {
+    width: 360px;
+}
+
+main .contact .contact-box form .form-items input {
+    font-size: 0.95rem;
+    padding: 15px;
+}
+
+main .contact .contact-box form .form-items button {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+
+/* clients  */
+
+main .clients::before{
+    height: 90vh;      
+}
+
+main .clients h2{
+    margin: 7vh 0;        
+    font-size: 3rem;           
+}
+
+main .clients .images {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin-bottom: 14vh;
+} 
+
+main .clients .images .client-image {
+    width: 14rem;
+    height: 15rem;
+}
+
+
+/* about     */
+
+main .about {
+    width: 100%;
+    height: auto;
+    margin: 0 0 5vh;
+}
+
+main .about .content {
+    width: 100%;
+}
+
+main .about .content h2{
+    margin: 4vh 0;
+    font-size: 3rem;
+}
+
+
+main .about .content p{
+    width: 80%;                 
+    font-size: 1.3em;
+    padding: 25px;
+    border-radius: 30px;
+}

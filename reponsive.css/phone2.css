@@ -1,0 +1,141 @@
+/* navigation bar */
+
+body header {
+    height: 10vh;
+}
+
+header::before{
+    height: 10vh;
+}
+
+body header .navbar .logo {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+body header .navbar ul {
+    margin: 0 0 0 2%; 
+}
+
+body header .navbar ul li {
+    padding: 0 12px;
+}
+
+body header .navbar ul li a{
+    font-size: 1.6rem;
+}
+
+
+/* home     */
+
+main .home::before{
+    height: 92%;
+}
+
+main .home{
+    height: 55vh;
+}
+
+main .home .content h1{
+    font-size: 2.5rem;
+    padding: 4vh 0;
+}
+
+main .home .content p{
+    padding: 1vh 0;
+    width: 80%;
+}
+
+main .home .content .btn{ 
+    padding: 8px;
+    border-radius: 30px;
+    font-weight: 750;
+}
+
+
+/* about  */
+
+main .about .content {
+    width: 95%;
+}
+
+main .about .content h2{
+    color: rgb(136, 61, 61);
+    margin: 3.5vh 0;
+    font-size: 3rem;
+}
+
+main .about .content p{
+    width: 90%;
+    font-size: 1.3em;
+    border-radius: 30px;
+}
+
+
+/* products       */
+
+main .products .up-heading {
+    font-size: 2.3rem;
+    margin: 5vh 0 ;
+}
+main .products .down-heading {
+    font-size: 1.5rem;
+    margin: 50px 0 ;
+}
+main .products .container {
+    height: auto;
+}
+
+main .products .swiper-wrapper {
+    display: flex;
+}
+
+main .products .swiper-wrapper .box {
+    width: 450px;
+    border-radius: 10px;
+    margin: 10px;
+}
+main .products .swiper-wrapper .box .content{
+    display: flex;
+    flex-direction: column;
+}
+
+main .products .swiper-wrapper .box .content h3{
+    font-size: 1.4rem;
+}
+
+main .products .swiper-wrapper .box .content p{
+    font-size: 1.1rem;
+}
+
+/* ...........  */
+
+
+/* contact     */
+main .contact h2 {
+    font-size: 2.5rem;
+    padding: 3rem 0;
+}
+
+main .contact .contact-box form{
+    padding: 3.2rem;
+}
+
+main .contact .contact-box form .form-items label {
+    padding: 20px 0 8px;
+    font-size: 1.2rem;
+}
+main .contact .contact-box form .form-items input {
+    width: 380px;
+}
+
+main .contact .contact-box form .form-items input {
+    font-size: 1rem;
+    padding: 12px;
+}
+
+main .contact .contact-box form .form-items button {
+    font-size: 1.4rem;
+}
+

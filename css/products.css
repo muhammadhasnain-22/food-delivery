@@ -38,17 +38,24 @@ main .products .down-heading {
     margin: 40px 0 ;
 }
 
+main .products .container {
+    width: 100%;
+    height: auto;
+}
+
+
 main .products .swiper {
     width: 90%;
     height: 50vh;
 }
 main .products .swiper-wrapper {
     /* width: 90%; */
-    /* height: 20vh; */
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    top: 0;
 }
 
 main .products .swiper-wrapper .box {

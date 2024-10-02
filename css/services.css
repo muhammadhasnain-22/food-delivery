@@ -2,7 +2,7 @@
 /* the styling about services starts heer  */
 
 main .services {
-    width: 80%;
+    /* width: 80%; */
     height: 60vh;
     margin: auto;
     display: flex;
@@ -12,14 +12,13 @@ main .services {
 main .services h1 {
     font-size: 3.3rem;
     font-family: "Balsamiq Sans", sans-serif;
-    width: 12%;
     align-self: center;
 }
 
 main .services .boxes {
     width: 100%;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-evenly;    
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -28,7 +27,7 @@ main .services .boxes .content {
     height: 400px;
     margin: 20px;
     border: 2px solid brown;
-    background-color: rgb(255, 253, 246);
+    background-color: rgb(246, 250, 255);
     border-radius: 10px;
     padding: 15px;
     display: flex;
@@ -44,6 +43,7 @@ main .services .boxes .content p{
     font-size: 0.9rem;
     text-align: justify;
     color: gray;
+    font-family: "Balsamiq Sans", sans-serif;
 }
 
 main .services .boxes .content .image {

@@ -9,6 +9,8 @@ main .about {
     height: 70vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 main .about .content {
     width: 85%;
@@ -23,7 +25,7 @@ main .about .content {
 
 main .about .content h2{
     color: rgb(136, 61, 61);
-    margin: 5vh 0;
+    margin: 3vh 0;
     display: flex;
     align-self: center;
     font-size: 3.3rem;
